@@ -61,6 +61,31 @@ const routes = [
     name: 'DataBindingRadio',
     component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/DataBindingRadio.vue')
   },
+  {
+    path: '/databindingattribute',
+    name: 'DataBindingAttribute',
+    component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/DataBindingAttribute.vue')
+  },
+  {
+    path: '/databindingbutton',
+    name: 'DataBindingButton',
+    component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/DataBindingButton.vue')
+  },
+  {
+    path: '/databindingclass',
+    name: 'DataBindingClass',
+    component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/DataBindingClass.vue')
+  },
+  {
+    path: '/databindingclass2',
+    name: 'DataBindingClass2',
+    component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/DataBindingClass2.vue')
+  },
+  {
+    path: '/databindingstyle',
+    name: 'DataBindingStyle',
+    component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/DataBindingStyle.vue')
+  },
 ]
 
 const router = createRouter({
