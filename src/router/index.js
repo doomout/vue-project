@@ -25,7 +25,42 @@ const routes = [
     path: '/databindinghtml',
     name: 'DataBindingHtml',
     component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/DataBindingHtml.vue')
-  }
+  },
+  {
+    path: '/dataBindinginputtext',
+    name: 'DataBindingInputText',
+    component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/DataBindingInputText.vue')
+  },
+  {
+    path: '/dataBindinginputnumber',
+    name: 'DataBindingInputNumber',
+    component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/DataBindingInputNumber.vue')
+  },
+  {
+    path: '/dataBindingtextarea',
+    name: 'DataBindingTextarea',
+    component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/DataBindingTextarea.vue')
+  },
+  {
+    path: '/dataBindingselect',
+    name: 'DataBindingSelect',
+    component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/DataBindingSelect.vue')
+  },
+  {
+    path: '/databindingcheckbox',
+    name: 'DataBindingCheckbox',
+    component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/DataBindingCheckbox.vue')
+  },
+  {
+    path: '/databindingcheckbox2',
+    name: 'DataBindingCheckbox2',
+    component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/DataBindingCheckbox2.vue')
+  },
+  {
+    path: '/databindingradio',
+    name: 'DataBindingRadio',
+    component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/DataBindingRadio.vue')
+  },
 ]
 
 const router = createRouter({
