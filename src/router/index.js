@@ -101,6 +101,11 @@ const routes = [
     name: 'EventClick',
     component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/EventClick.vue')
   },
+  {
+    path: '/eventchange',
+    name: 'EventChange',
+    component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/EventChange.vue')
+  },
 ]
 
 const router = createRouter({
