@@ -106,6 +106,21 @@ const routes = [
     name: 'EventChange',
     component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/EventChange.vue')
   },
+  {
+    path: '/funccomputed',
+    name: 'FuncComputed',
+    component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/FuncComputed.vue')
+  },
+  {
+    path: '/funcwatch',
+    name: 'FuncWatch',
+    component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/FuncWatch.vue')
+  },
+  {
+    path: '/funcwatch2',
+    name: 'FuncWatch2',
+    component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/FuncWatch2.vue')
+  },
 ]
 
 const router = createRouter({
