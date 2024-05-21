@@ -96,6 +96,11 @@ const routes = [
     name: 'RenderingVIf',
     component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/RenderingVIf.vue')
   },
+  {
+    path: '/eventclick',
+    name: 'EventClick',
+    component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/EventClick.vue')
+  },
 ]
 
 const router = createRouter({
