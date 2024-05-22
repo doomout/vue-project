@@ -10,4 +10,5 @@ Vue CLI 설치: npm install -g @vue/cli
 vue 프로젝트 생성 : (설치 경로로 이동 후) vue create 프로젝트명  
 서버 실행(기본 8080포트) : npm run serve  
 컴파일 : npm run build  
-Vue-Router 설치  : vue add router
+Vue-Router 설치  : vue add router  
+Axios 설치 : npm install axios --save
