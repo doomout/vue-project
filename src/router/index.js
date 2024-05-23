@@ -121,6 +121,11 @@ const routes = [
     name: 'FuncWatch2',
     component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/FuncWatch2.vue')
   },
+  {
+    path: '/databindinglist2',
+    name: 'DataBindingList2',
+    component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/DataBindingList2.vue')
+  },
 ]
 
 const router = createRouter({
