@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import DataBinding  from '../views/DataBinding.vue'
+import NestedComponent from '../views/NestedComponent.vue'
 
 const routes = [
   {
@@ -20,6 +21,11 @@ const routes = [
     path: '/databinding',
     name: 'DataBinding',
     component: DataBinding
+  },
+  {
+    path: '/nested',
+    name: 'NestedComponent',
+    component: NestedComponent
   },
   {
     path: '/databindinghtml',
@@ -125,6 +131,31 @@ const routes = [
     path: '/databindinglist2',
     name: 'DataBindingList2',
     component: () => import( /* webpackChunkName: "databindinghtml" */ '../views/DataBindingList2.vue')
+  },
+  {
+    path: '/parent',
+    name: 'ParentComponent',
+    component: () => import( /* webpackChunkName: "parent" */ '../views/ParentComponent.vue')
+  },
+  {
+    path: '/parent2',
+    name: 'ParentComponent2',
+    component: () => import( /* webpackChunkName: "parent2" */ '../views/ParentComponent2.vue')
+  },
+  {
+    path: '/parent3',
+    name: 'ParentComponent3',
+    component: () => import( /* webpackChunkName: "parent3" */ '../views/ParentComponent3.vue')
+  },
+  {
+    path: '/parent4',
+    name: 'ParentComponent4',
+    component: () => import( /* webpackChunkName: "parent4" */ '../views/ParentComponent4.vue')
+  },
+  {
+    path: '/parent5',
+    name: 'ParentComponent5',
+    component: () => import( /* webpackChunkName: "parent5" */ '../views/ParentComponent5.vue')
   },
 ]
 
