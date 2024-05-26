@@ -167,6 +167,31 @@ const routes = [
     name: 'ProvideInject',
     component: () => import( /* webpackPrefetch: true, webpackChunkName: "provide" */ '../views/ProvideInject.vue')
   },
+  {
+    path: '/calculatorbase',
+    name: 'CalculatorBase',
+    component: () => import( /* webpackChunkName: "calculator" */ '../views/CalculatorBase.vue')
+  },
+  {
+    path: '/composition',
+    name: 'Composition API',
+    component: () => import( /* webpackChunkName: "composition" */ '../views/CompositionAPI.vue')
+  },
+  {
+    path: '/composition2',
+    name: 'Composition API2',
+    component: () => import( /* webpackChunkName: "composition2" */ '../views/CompositionAPI2.vue')
+  },
+  {
+    path: '/composition3',
+    name: 'Composition API3',
+    component: () => import( /* webpackChunkName: "composition3" */ '../views/CompositionAPI3.vue')
+  },
+  {
+    path: '/composition4',
+    name: 'Composition API4',
+    component: () => import( /* webpackChunkName: "composition4" */ '../views/CompositionAPI4.vue')
+  },
 ]
 
 const router = createRouter({
