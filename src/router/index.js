@@ -197,6 +197,11 @@ const routes = [
     name: 'Composition API Provide',
     component: () => import( /* webpackChunkName: "composition_provide" */ '../views/CompositionAPIProvide.vue')
   },
+  {
+    path: '/mixins',
+    name: 'MixinsEX',
+    component: () => import( /* webpackChunkName: "mixins" */ '../views/MixinsEX.vue')
+  },
 ]
 
 const router = createRouter({
