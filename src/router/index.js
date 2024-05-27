@@ -192,6 +192,11 @@ const routes = [
     name: 'Composition API4',
     component: () => import( /* webpackChunkName: "composition4" */ '../views/CompositionAPI4.vue')
   },
+  {
+    path: '/composition_provide',
+    name: 'Composition API Provide',
+    component: () => import( /* webpackChunkName: "composition_provide" */ '../views/CompositionAPIProvide.vue')
+  },
 ]
 
 const router = createRouter({
